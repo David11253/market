@@ -119,7 +119,7 @@ h1 {
 @media (max-width: 768px) {
   /* Сетка для карточек товаров на мобильных */
   .product {
-      width: 45%; /* Карточки занимают 45% экрана */
+      width: 44%; /* Карточки занимают 45% экрана */
       margin: 10px 5px;
   }
 
@@ -147,18 +147,27 @@ h1 {
 @media (max-width: 480px) {
   /* Сетка для карточек товаров на очень маленьких экранах */
   .product {
-      width: 100%; /* Карточки занимают всю ширину экрана */
-      margin: 10px 0;
+      width: 85%; /* Карточки занимают всю ширину экрана */
+      margin: 10px auto;
   }
 
   h1 {
-      font-size: 20px; /* Ещё меньший размер заголовка */
+      font-size: 18px; /* Ещё меньший размер заголовка */
+position: absolute;
+left: 0px;
   }
+
+h2 {
+  font-size: 14px;
+}
 
   .bt {
       padding: 6px;
   }
 
+  p {
+    font-size: 10px;
+  }
   /* Стили для модального окна */
   .modal-content {
       width: 95%;
@@ -167,5 +176,16 @@ h1 {
 
   .close-button {
       font-size: 18px;
+  }
+  .but {
+    position: absolute;
+    top: 0px;
+    background-color: #181818;
+    color: #f5f5f5;
+  }
+
+  .tg {
+    position: absolute;
+    left: 150px;
   }
 }

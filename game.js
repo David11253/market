@@ -13,7 +13,7 @@ export const market = [
         dpinfo: "обыкновенные элитры на которых можно летать",
         img: "img/el.png",
         number: 1,
-        specialkod: "75000,00"
+        specialkod: "40000,00"
     },
     {
         name: "элитры",
@@ -21,7 +21,7 @@ export const market = [
         dpinfo: "элитры с чаром починка которая поможет тебе чинить элитры при помощи опыта ",
         img: "img/zel.png",
         number: 1,
-        specialkod: "100000,00"
+        specialkod: "60000,00"
     },
     {
         name: "элитры",
@@ -29,7 +29,7 @@ export const market = [
         dpinfo: "элитры с чаром неразрушимость III и починка которые помогут тебе долго остоваться в небе и чинить при помощи опыта ",
         img: "img/zel.png",
         number: 1,
-        specialkod: "150000,00"
+        specialkod: "80000,00"
     },
     {
         name: "скорость II",

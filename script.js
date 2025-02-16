@@ -54,6 +54,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     <p><strong>Доп. инфо:</strong> ${item.dpinfo}</p>
                     <p><strong>Кол-во:</strong> ${item.number}</p>
                     <p><strong>цена:</strong> ${item.specialkod}$</p>
+                    <p>все идет в игровой валюте</p>
                 `;
                 modal.style.display = "flex";
             });

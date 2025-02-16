@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 <img src="${item.img}" alt="${item.name}">
                 <div>
                     <button class="bt">Подробнее</button>
-                    <p><strong>цена:</strong> ${item.specialkod}$</p>
+                    <p><strong>цена:</strong> ${item.specialkod}$ кол-во: ${item.number}</p>
                 </div>       
             `;
 

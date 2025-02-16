@@ -72,12 +72,29 @@ export const market = [
         specialkod: "50000,00"
     },
     {
-        name: "регенирация II",
-        informate: "зелье с хорошим бафом",
-        dpinfo: "дает бафы: регенирация II",
+        name: "самагон",
+        informate: "зелье с хорошим дебафом (кинте в врага)",
+        dpinfo: "дает дебафы: замедление IV, вред II, отравления II, слабости ",
         img: "img/castzelk.png",
-        number: 2,
-        specialkod: "5000,00"
+        number: 1,
+        specialkod: "60000,00"
+    },
+
+    {
+        name: "чайный гриб",
+        informate: "зелье с хорошим бафом",
+        dpinfo: "дает бафы: регенирация II, сила II, моментальное здоровье II, замедление IV, стойкость II,скорость II ",
+        img: "img/castzelk.png",
+        number: 1,
+        specialkod: "200000,00"
+    },
+    {
+        name: "энергетик",
+        informate: "зелье с хорошим бафом",
+        dpinfo: "дает бафы: регенирация II, сила II, моментальное здоровье II, скорость II",
+        img: "img/castzelk.png",
+        number: 1,
+        specialkod: "50000,00"
     },
     {
         name: "алмазы",
@@ -86,6 +103,54 @@ export const market = [
         img: "img/alm.png",
         number: 64,
         specialkod: "10000,00"
+    },
+    {
+        name: "починка",
+        informate: "зачаррованная книга",
+        dpinfo: "починка один из самых лучших зачарований в мире позволяющее чинить предметы при помощи опыта",
+        img: "img/kn.png",
+        number: 1,
+        specialkod: "20000,00"
+    },
+    {
+        name: "неразрушимость 3",
+        informate: "зачаррованная книга",
+        dpinfo: "неразрушимость III при помощи которого продлеваете службу предмета",
+        img: "img/kn.png",
+        number: 64,
+        specialkod: "25000,00"
+    },
+    {
+        name: "aлмазнфя шапка",
+        informate: "зачаррованная броня",
+        dpinfo: "зачары: неразрушимость III защита IV",
+        img: "img/almsh.png",
+        number: 1,
+        specialkod: "25000,00"
+    },
+    {
+        name: "aлмазный нагрудник",
+        informate: "зачаррованная броня",
+        dpinfo: "зачары: неразрушимость III защита IV",
+        img: "img/almk.png",
+        number: 1,
+        specialkod: "25000,00"
+    },
+    {
+        name: "aлмазные штаны",
+        informate: "зачаррованная броня",
+        dpinfo: "зачары: неразрушимость III защита IV",
+        img: "img/almp.png",
+        number: 1,
+        specialkod: "25000,00"
+    },
+    {
+        name: "aлмазные ботосы",
+        informate: "зачаррованная броня",
+        dpinfo: "зачары: неразрушимость III защита IV",
+        img: "img/almb.png",
+        number: 1,
+        specialkod: "25000,00"
     },
 ];
 
